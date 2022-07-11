@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 5
+      data-source-properties: stringtype=unspecified
+    tomcat:
+      connection-properties: stringtype=unspecified
+    password: v4HmYtmNgvsVkRrB81AT
+    url: jdbc:postgresql://strides-bom-rds.cpca96t4u31g.ap-south-1.rds.amazonaws.com:5432/collage_prod_db
+    username: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update

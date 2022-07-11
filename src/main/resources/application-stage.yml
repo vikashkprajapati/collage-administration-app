@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 5
+      data-source-properties: stringtype=unspecified
+    tomcat:
+      connection-properties: stringtype=unspecified
+    password: test1234
+    url: jdbc:postgresql://localhost:5432/collage_db
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
